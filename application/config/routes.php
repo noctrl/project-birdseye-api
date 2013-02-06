@@ -41,6 +41,11 @@
 $route['default_controller'] = "welcome";
 $route['404_override'] = '';
 
+$route['whatever'] = 'abcd';
+$route['lots'] = 'lots';
+$route['lot/(:num)'] = 'lots/lot/$1';
+$route['lot/(:num)/active'] = 'lots/active/$1';
+
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */
