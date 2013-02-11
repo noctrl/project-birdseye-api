@@ -10,6 +10,7 @@ CREATE TABLE birdseye.lots (
   name VARCHAR(256) NOT NULL,
   description TEXT,
   location TEXT,
+  image_url VARCHAR(256),
   spaces_available INT NOT NULL DEFAULT 0,
   total_spaces INT NOT NULL,
   active BOOL NOT NULL DEFAULT 1,

@@ -24,7 +24,6 @@ class Lots_Model extends CI_Model{
             $this->db->where('active', true);
 
         $this->db->limit($limit, $offset);
-//        $this->db->where('active', true)->limit($limit, $offset);
 
         $query = $this->db->get();
 
